@@ -232,7 +232,7 @@ ${userFocus ? `Specific user focus: "${userFocus}". Make sure to address this qu
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.8-flash",
+      model: "gemini-2.5-flash",
       contents,
       config: {
         systemInstruction,
@@ -302,7 +302,7 @@ Provide a clear, reassuring, direct, and jargon-free answer in Plain English.
 If there are practical risks or specific actions to take, be explicit. Keep your answer concise (2-4 paragraphs or a short bulleted list), empathetic, and directly helpful.`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.8-flash",
+      model: "gemini-2.5-flash",
       contents: prompt,
     });
 
