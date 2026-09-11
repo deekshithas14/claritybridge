@@ -1,0 +1,6 @@
+{
+  "name": "ClarityBridge",
+  "description": "Translate complicated documents, bills, notices, and confusing real-world information into plain-English explanations, structured key data, critical points, and actionable next steps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
